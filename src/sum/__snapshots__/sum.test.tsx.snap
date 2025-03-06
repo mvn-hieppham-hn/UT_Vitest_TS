@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`sum > adds 1^2 + 2^2 +3^2 to equal 14 1`] = `140`;
+
+exports[`sum > render html is 'Hello' 1`] = `
+<h1>
+  Hell
+</h1>
+`;

@@ -1,0 +1,93 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`loadUsersDetails > loads user data as expected > 
+    {
+      "coolness": -1,
+      "favoriteFood": "pizza",
+      "name": "Jason",
+      "projects": [
+        "burgers",
+        "cheese",
+      ],
+      "snacks": true,
+      "username": "antfu7",
+    }
+     1`] = `
+{
+  "coolness": 100,
+  "favoriteFood": "sushi",
+  "name": "Anthony",
+  "projects": [
+    "vitest",
+    "vite",
+  ],
+  "snacks": true,
+  "username": "antfu7",
+}
+`;
+
+exports[`loadUsersDetails > loads user data as expected > 
+    {
+      "coolness": -1,
+      "favoriteFood": "pizza",
+      "name": "Jason",
+      "projects": [
+        "burgers",
+        "cheese",
+      ],
+      "snacks": true,
+      "username": "jlengstorf",
+    }
+     1`] = `
+{
+  "coolness": -1,
+  "favoriteFood": "pizza",
+  "name": "Jason",
+  "projects": [
+    "burgers",
+    "cheese",
+  ],
+  "snacks": true,
+  "username": "jlengstorf",
+}
+`;
+
+exports[`loadUsersDetails > loads user data as expected > 
+{
+  "coolness": 100,
+  "favoriteFood": "sushi",
+  "name": "Anthony",
+  "projects": [
+    "vitest",
+    "vite",
+  ],
+  "snacks": true,
+  "username": "antfu7",
+}
+ 1`] = `
+{
+  "coolness": 100,
+  "favoriteFood": "sushi",
+  "name": "Anthony",
+  "projects": [
+    "vitest",
+    "vite",
+  ],
+  "snacks": true,
+  "username": "antfu7",
+}
+`;
+
+exports[`loadUsersDetails > loads user data as expected 1`] = `
+{
+  "coolness": 100,
+  "favoriteFood": "sushi",
+  "name": "Anthony",
+  "projects": [
+    "vitest",
+    "vite",
+  ],
+  "snacks": true,
+  "username": "antfu7",
+}
+`;
