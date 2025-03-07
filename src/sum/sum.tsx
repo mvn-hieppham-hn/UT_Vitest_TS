@@ -36,3 +36,16 @@ export const sumFactorial = (k: number) => {
 export const renderHTML = (html: string) => {
   return <h1>{html}</h1>;
 };
+
+// const businessHours = [9, 17];
+
+// function isOpening(time:) {
+//   const currentHour = new Date().getHours();
+//   const [open, close] = businessHours;
+
+//   if (currentHour > open && currentHour < close) {
+//     return { message: "Success" };
+//   }
+
+//   return { message: "Error" };
+// }
